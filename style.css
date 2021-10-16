@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    margin: 0;
+}
+body{
+    background-image: url("images/pattern-background-desktop.png");
+    background-repeat: no-repeat;
+    background-color:  hsl(225, 100%, 94%);
+    display:flex;
+    flex-direction:column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.main{
+    background-image: url("images/illustration-hero.png");
+    height: 220px;
+    width: 400px;
+    border-radius: 15px 15px 0 0  ;
+}
+
+.main1{
+    background-color: White;
+    width: 400px;
+    height: 400px;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    text-align: center;
+    border-radius: 0 0 15px 15px ;
+}
+
+.section1, .section11{
+    margin:15px;
+    width: 70%;
+}
+
+.section2{
+    display:flex;
+    background-color: hsl(225, 100%, 98%);
+    width: 300px;
+    height: 100px;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.section3{
+    background-color: hsl(245, 75%, 52%);
+    color:white;
+    width: 300px;
+    height: 50px;
+    border-radius: 15px;
+    text-align: center;
+    padding: 10px;
+}
+.section21{
+    text-align: left;
+    margin: 15px;
+    padding:none;
+}
+.section22{
+    margin: none;
+    text-align: left;
+}
+
+.section23{
+    padding: 15px;
+    text-align: left;
+}
+.section4{
+    padding: 10px;
+}
+
+p{
+    padding:0 0 15px 0;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+    color:hsl(224, 23%, 55%);
+}
+h1{
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
+}
+
+h3{
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+}
+
+
